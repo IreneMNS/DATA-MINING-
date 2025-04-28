@@ -110,5 +110,4 @@ def predict(input_data: ColumnInput):
     rf_prediction = best_rf_model.predict(scaled_input)[0]
     
     return {"RandomForestPrediction": rf_prediction}
-
-
+```
