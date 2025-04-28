@@ -59,15 +59,14 @@
 
 ---
 
-## 📚 Source Code (app.py) — Import Library
+## 📚 Source Code (app.py) 
 ```python
 from fastapi import FastAPI
 from pydantic import BaseModel
 import pickle
 import pandas as pd
 import numpy as np
-```
-## 📚 Source Code (app.py) — Input Data
+
 app = FastAPI()
 
 class ColumnInput(BaseModel):
