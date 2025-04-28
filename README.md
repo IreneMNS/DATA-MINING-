@@ -1,5 +1,6 @@
 # **Analisis Konsumsi Energi Terbarukan Panel Surya Terhadap Pemanfaatan untuk Listrik**
 ---
+
 📁File Structure
 ---
 ├── app.py                      # Endpoint API utama
@@ -8,7 +9,7 @@
 ├── scaler.pkl                  # File scaler untuk normalisasi fitur input
 ├── requirements.txt            # Daftar dependency yang dibutuhkan
 
----
+
 
 🕹️Fitur API
 ---
