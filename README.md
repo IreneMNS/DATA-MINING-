@@ -1,15 +1,23 @@
 # **Analisis Konsumsi Energi Terbarukan Panel Surya Terhadap Pemanfaatan untuk Listrik**
 ---
 
-📁File Structure
+## 📁File Structure
 ---
->+├── app.py                      >+├── best_rf_model.pkl          
->+├── best_xgb_model.pkl          >+├── scaler.pkl                  
+>+├── app.py                      
+>+├── best_rf_model.pkl          
+>+├── best_xgb_model.pkl          
+>+├── scaler.pkl                  
 >+├── requirements.txt            
 
 
 
-🕹️Fitur API
----
-+ Perhitungan daya listrik dari Panel Surya berdasarkan cuaca dan waktu
-+ 
+## 💻Source Code API
+--
+### Import Library
+from fastapi import FastAPI
+from pydantic import BaseModel
+import pickle
+import pandas as pd
+import numpy as np
+
+
