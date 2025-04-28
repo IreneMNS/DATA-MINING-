@@ -3,11 +3,9 @@
 
 📁File Structure
 ---
->+├── app.py                      # Endpoint API utama
->+├── best_rf_model.pkl           # File model Machine Learning yang telah dilatih
->+├── best_xgb_model.pkl          # File model Machine Learning yang telah dilatih
->+├── scaler.pkl                  # File scaler untuk normalisasi fitur input
->+├── requirements.txt            # Daftar dependency yang dibutuhkan
+>+├── app.py                      >+├── best_rf_model.pkl          
+>+├── best_xgb_model.pkl          >+├── scaler.pkl                  
+>+├── requirements.txt            
 
 
 
